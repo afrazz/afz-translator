@@ -70,7 +70,7 @@ window.addEventListener('keypress', function (e) {
 
 document.querySelector('.voice').addEventListener('click', function () {
   if (textarea.value === '') {
-    responsiveVoice.speak('Translate your word first');
+    responsiveVoice.speak('Translate your sentence first');
   } else {
     responsiveVoice.speak(textarea.value);
   }

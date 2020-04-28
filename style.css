@@ -181,17 +181,21 @@ textarea::placeholder {
 @media screen and (max-width: 600px) {
 	input {
 		font-size: 1.5em !important;
-		padding: .5em; 
+		padding: .4em; 
 	}
 
 	textarea {
 		font-size: 1.5em !important;
-		height: 7rem;
+		height: 8rem;
 	}
 
 	.translate {
-		height: 3em !important; 
+		height: 2.5em !important; 
 		font-size: 1em;
+	}
+
+	.translate button span {
+		font-size: 1.5em;
 	}
 
 	
@@ -221,7 +225,23 @@ textarea::placeholder {
 	h2 {
 		font-size: 2em !important;
 	}
+	
+	input {
+		font-size: 1.3em !important;
+		padding: .5em; 
+	}
+	
+	textarea {
+		font-size: 1.3em !important;
+		height: 7rem;
+	}
+	.translate button span {
+		font-size: 1.3em;
+	}
+
 }
+
+
 
 @media screen and (max-width: 375px) {
 	h1 {
