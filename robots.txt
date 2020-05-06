@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://afz-translate.netlify.com/sitemap.xml
+Sitemap: https://afz-translate.netlify.app/sitemap.xml
